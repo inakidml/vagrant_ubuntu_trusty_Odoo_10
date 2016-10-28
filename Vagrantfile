@@ -12,8 +12,8 @@ Vagrant.configure(2) do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  config.vm.box = "ubuntu/trusty64_odoo"
-  config.vm.box.url=[https://drive.google.com/a/jesusobrero.org/file/d/0B-FsNncjceRna1N1NTBDNkJkTDQ/view?usp=sharing]
+  config.vm.box = "UbuntuTrusty64_odoo"
+  config.vm.box_url=["https://dl.dropboxusercontent.com/s/5hxfyinlp3csqct/package.box"]
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.
@@ -26,12 +26,12 @@ Vagrant.configure(2) do |config|
 
   # Create a private network, which allows host-only access to the machine
   # using a specific IP.
-  #   config.vm.network "private_network", ip: "192.168.200.4"
+    config.vm.network "private_network", ip: "192.168.33.10"
 
   # Create a public network, which generally matched to bridged network.
   # Bridged networks make the machine appear as another physical device on
   # your network.
-   config.vm.network "public_network", ip: "192.168.200.4"
+    config.vm.network "public_network", ip: "192.168.200.4"
 
   # Share an additional folder to the guest VM. The first argument is
   # the path on the host to the actual folder. The second argument is
