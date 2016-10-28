@@ -13,7 +13,7 @@ Vagrant.configure(2) do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
   config.vm.box = "ubuntu/trusty64_odoo"
-  config.vm.box.url=[box/package.box]
+  config.vm.box.url=[https://drive.google.com/a/jesusobrero.org/file/d/0B-FsNncjceRna1N1NTBDNkJkTDQ/view?usp=sharing]
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs
   # `vagrant box outdated`. This is not recommended.
