@@ -15,13 +15,19 @@ cd vagrant_ubuntu_trusty_Odoo_10
 vagrant up
 ```
 ## Datos de Acceso
-Esta mapeado el puerto 8069 del Localhost al 8069 de la maquina, asi que podemos conectarnos a Odoo desde cualquier navegador escribiendo:
+Esta mapeado el puerto 8069 del Localhost al 8069 de la máquina, asi que podemos conectarnos a Odoo desde cualquier navegador escribiendo:
 
 [http://localhost:8069](http://localhost:8069)
 
-Podemos añadirle una ip pública para poder acceder desde cualquier pc de la red descomentando en el Vagrantfile la linea:
+*Correo electronico: 
+admin@odoo.es*
+
+*Contraseña: 
+admin*
+
+Podemos añadirle una ip pública para poder acceder desde cualquier pc de la red descomentando en el Vagrantfile la línea:
 >config.vm.network "public_network", ip: "192.168.1.4"
->
+
 y poniendo una ip de nuestro rango.
 
 ### Apagar máquina
