@@ -18,7 +18,7 @@ Esta mapeado el puerto 8069 del Localhost al 8069 de la maquina, asi que podemos
 http://localhost:8069
 
 Podemos añadirle una ip pública para poder acceder desde cualquier pc de la red, descomentando en el Vagrantfile la linea:
->config.vm.network "public_network", ip: "192.168.1.4"     .
+>config.vm.network "public_network", ip: "192.168.1.4" <
 y poniendo una ip de nuestro rango.
 
 
