@@ -1,7 +1,7 @@
 # Vagrant Ubuntu trusty Odoo 10
 ######Vagrantfile para maquina virtual ubuntu 16.04 con Odoo 10.0 instalado
 
-#####Es necesario tener [VirtualBox](https://www.virtualbox.org/wiki/Downloads) instalado.
+#####Es necesario tener [VirtualBox](https://www.virtualbox.org/wiki/Downloads), [Vagrant](https://www.vagrantup.com/downloads.html) y [Git](https://git-scm.com/downloads) instalado.
 
 ### Clonar repositorio
 ```bash
