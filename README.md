@@ -1,7 +1,7 @@
 # Vagrant Ubuntu trusty Odoo 10
-######Vagrantfile para maquina virtual ubuntu 16.04 con Odoo 10.0 instalado
+###### Vagrantfile para maquina virtual ubuntu 16.04 con Odoo 10.0 instalado
 
-#####Es necesario tener [VirtualBox](https://www.virtualbox.org/wiki/Downloads), [Vagrant](https://www.vagrantup.com/downloads.html) y [Git](https://git-scm.com/downloads) instalado.
+##### Es necesario tener [VirtualBox](https://www.virtualbox.org/wiki/Downloads), [Vagrant](https://www.vagrantup.com/downloads.html) y [Git](https://git-scm.com/downloads) instalado.
 
 ### Clonar repositorio
 ```bash
@@ -30,6 +30,31 @@ Podemos añadirle una ip pública para poder acceder desde cualquier pc de la re
 
 y poniendo una ip de nuestro rango.
 
+### Reiniciar servidor Odoo
+```bash
+sudo service odoo restart
+```
+
+### Ruta Configuración
+
+>/etc/odoo/odoo.conf
+
+
+### Ruta modulos 
+
+>/usr/lib/python2.7/dist-packages/odoo/addons/
+
+
+### Instalar máquina
+```bash
+vagrant init
+```
+
+### Iniciar máquina
+```bash
+vagrant up
+```
+
 ### Apagar máquina
 ```bash
 vagrant halt
@@ -43,18 +68,6 @@ vagrant ssh
 vagrant destroy
 ```
 
-### Reiniciar servidor Odoo
-```bash
-sudo service odoo restart
-```
 
-### Ruta Configuración
-```bash
-/etc/odoo/odoo.conf
-```
 
-### Ruta modulos 
-```bash
-/usr/lib/python2.7/dist-packages/odoo/addons/
-```
 
