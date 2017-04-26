@@ -34,26 +34,13 @@ y poniendo una ip de nuestro rango.
 ```bash
 sudo service odoo restart
 ```
-
-### Ruta Configuración
-
->/etc/odoo/odoo.conf
-
-
 ### Ruta modulos 
 
 >/usr/lib/python2.7/dist-packages/odoo/addons/
 
+### Ruta Configuración
 
-### Instalar máquina
-```bash
-vagrant init
-```
-
-### Iniciar máquina
-```bash
-vagrant up
-```
+>/etc/odoo/odoo.conf
 
 ### Apagar máquina
 ```bash
