@@ -30,18 +30,14 @@ Podemos añadirle una ip pública para poder acceder desde cualquier pc de la re
 
 y poniendo una ip de nuestro rango.
 
+### Ruta Configuración
+>/etc/odoo/odoo.conf
+### Ruta modulos 
+>/usr/lib/python2.7/dist-packages/odoo/addons/
 ### Reiniciar servidor Odoo
 ```bash
 sudo service odoo restart
 ```
-### Ruta modulos 
-
->/usr/lib/python2.7/dist-packages/odoo/addons/
-
-### Ruta Configuración
-
->/etc/odoo/odoo.conf
-
 ### Apagar máquina
 ```bash
 vagrant halt
