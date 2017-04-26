@@ -44,4 +44,14 @@ vagrant destroy
 ```
 
 
+### Ruta modulos 
+```bash
+/usr/lib/python2.7/dist-packages/odoo/addons/
+```
+
+### Reiniciar servidor Odoo
+```
+sudo service odoo restart
+```
+
 
