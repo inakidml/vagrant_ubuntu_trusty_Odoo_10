@@ -44,11 +44,14 @@ vagrant destroy
 ```
 
 ### Reiniciar servidor Odoo
-```
+```bash
 sudo service odoo restart
 ```
 
-
+### Ruta Configuración
+```bash
+/etc/odoo/odoo.conf
+```
 
 ### Ruta modulos 
 ```bash
